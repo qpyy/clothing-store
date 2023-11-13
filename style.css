@@ -209,6 +209,24 @@ body {
   grid-row-gap: 40px;
 }
 
+@media (max-width: 720px) {
+  #product1 .pro-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 999px) {
+  #product1 .pro-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  #product1 .pro-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 #product1 .pro {
   width: 23%;
   min-width: 250px;

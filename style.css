@@ -212,18 +212,21 @@ body {
 @media (max-width: 720px) {
   #product1 .pro-container {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 721px) and (max-width: 999px) {
   #product1 .pro-container {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1000px) {
   #product1 .pro-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 
